@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/background_border"
+    tools:context=".BlankFragment">
+
+    <TextView
+        android:id="@+id/skillsFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:text="Skills "
+        android:textColor="#009688"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekBarFragA"
+        android:layout_width="229dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarFragI"
+        android:layout_width="230dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="100dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarFragF"
+        android:layout_width="232dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="150dp" />
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Android"
+        android:textColor="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Ios"
+        android:textColor="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:text="Flutter"
+        android:textColor="#009688"
+        android:textSize="20sp" />
+
+</FrameLayout>
